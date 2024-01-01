@@ -1,0 +1,38 @@
+;-----------------------------
+; Copyright (C) Lenovo.
+;
+
+[Version]
+Signature = "$WINDOWS NT$"
+Class = Extension
+ClassGuid = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider = %ManufacturerName%
+ExtensionId = {0A548529-41E1-458c-9BAF-C10FA17024EC} ; my GUID
+CatalogFile = PowerMgrExtension.cat
+DriverVer = 10/24/2018,1.0.1.0
+
+[Manufacturer]
+%ManufacturerName% = PowerMgrExt, NTx86.10.0, NTamd64.10.0	; For Windows 10
+
+[PowerMgrExt.NTx86.10.0]
+%ExtensionDesc% = PowerMgrExt_Install, ACPI\LEN0268 ; Lenovo PM Device
+%ExtensionDesc% = PowerMgrExt_Install, ACPI\LEN0168 ; 
+%ExtensionDesc% = PowerMgrExt_Install, ACPI\LEN0068 ; 
+
+[PowerMgrExt.NTamd64.10.0]
+%ExtensionDesc% = PowerMgrExt_Install, ACPI\LEN0268 ; Lenovo PM Device
+%ExtensionDesc% = PowerMgrExt_Install, ACPI\LEN0168 ; 
+%ExtensionDesc% = PowerMgrExt_Install, ACPI\LEN0068 ; 
+
+[PowerMgrExt_Install.NT]
+; Empty
+
+[PowerMgrExt_Install.NT.Components]
+AddComponent = PowerMgr_component,,PowerMgrExt_ComponentInstall
+
+[PowerMgrExt_ComponentInstall]
+ComponentIds=LenovoPowerMgr
+
+[Strings]
+ManufacturerName = "Lenovo"
+ExtensionDesc = "Lenovo Power Manager"

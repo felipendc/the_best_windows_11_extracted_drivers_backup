@@ -1,0 +1,677 @@
+;-----------------------------
+; Copyright (C) Lenovo.
+;
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = System
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider    = %Mfg%
+DriverVer = 12/01/2022,10.0.154.0
+CatalogFile = PowerMgr.cat
+
+[SourceDisksNames]
+1=%DiskId%,,,""
+2=%DiskId%,,,\Resource
+3=%DiskId%,,,\LEPLang
+
+[SourceDisksFiles]
+PowerMgr.exe = 1
+PowerMgrInst.exe = 1
+PowerMgrUninstall.xml = 1
+PowerMgrUninstallx86.xml = 1
+PWMTR32V.dll = 1
+PWMIF32V.dll = 1
+PWMIF64V.dll = 1
+InstHelper.dll =1
+EasyResume.exe = 1
+SmartShutdown.exe = 1
+TPPWR64V.SYS = 1
+TPPWR32V.SYS = 1
+PWMRT32V_US.dll = 2
+PWMRT32V_JP.dll = 2
+PWMRT32V_SC.dll = 2
+PWMRT32V_FR.dll = 2
+PWMRT32V_GR.dll = 2
+PWMRT32V_IT.dll = 2
+PWMRT32V_SP.dll = 2
+PWMRT32V_BR.dll = 2
+PWMRT32V_TC.dll = 2
+PWMRT32V_KR.dll = 2
+PWMRT32V_SV.dll = 2
+PWMRT32V_FI.dll = 2
+PWMRT32V_NE.dll = 2
+PWMRT32V_DK.dll = 2
+PWMRT32V_NO.dll = 2
+PWMRT32V_PT.dll = 2
+PWMRT32V_CR.dll = 2
+PWMRT32V_CZ.dll = 2
+PWMRT32V_GK.dll = 2
+PWMRT32V_HU.dll = 2
+PWMRT32V_PL.dll = 2
+PWMRT32V_RO.dll = 2
+PWMRT32V_RU.dll = 2
+PWMRT32V_SH.dll = 2
+PWMRT32V_SK.dll = 2
+PWMRT32V_SL.dll = 2
+PWMRT32V_TU.dll = 2
+PWMRT32V_AR.dll = 2
+PWMRT32V_HE.dll = 2
+PWMRT32V_UA.dll = 2
+EventLogger.dll = 1
+PowerBaseModule.man = 1
+
+sa_LEPToastLnc.resources.dll = 3
+cz_LEPToastLnc.resources.dll = 3
+dk_LEPToastLnc.resources.dll = 3
+de_LEPToastLnc.resources.dll = 3
+gr_LEPToastLnc.resources.dll = 3
+us_LEPToastLnc.resources.dll = 3
+es_LEPToastLnc.resources.dll = 3
+fi_LEPToastLnc.resources.dll = 3
+fr_LEPToastLnc.resources.dll = 3
+il_LEPToastLnc.resources.dll = 3
+hr_LEPToastLnc.resources.dll = 3
+hu_LEPToastLnc.resources.dll = 3
+it_LEPToastLnc.resources.dll = 3
+jp_LEPToastLnc.resources.dll = 3
+kr_LEPToastLnc.resources.dll = 3
+no_LEPToastLnc.resources.dll = 3
+nl_LEPToastLnc.resources.dll = 3
+pl_LEPToastLnc.resources.dll = 3
+br_LEPToastLnc.resources.dll = 3
+pt_LEPToastLnc.resources.dll = 3
+ro_LEPToastLnc.resources.dll = 3
+ru_LEPToastLnc.resources.dll = 3
+sk_LEPToastLnc.resources.dll = 3
+si_LEPToastLnc.resources.dll = 3
+rs_LEPToastLnc.resources.dll = 3
+se_LEPToastLnc.resources.dll = 3
+tr_LEPToastLnc.resources.dll = 3
+ua_LEPToastLnc.resources.dll = 3
+cn_LEPToastLnc.resources.dll = 3
+tw_LEPToastLnc.resources.dll = 3
+iTin.Core.dll = 1
+Lenovo.Vantage.RpcClient.dll = 1
+Lenovo.Vantage.RpcCommon.dll = 1
+Lenovo.VantageService.Utilities.dll = 1
+Newtonsoft.Json.dll = 1
+VantageRpcClient.dll = 1
+LEPToastLnc.exe = 1
+dock_port.png = 1
+
+PWMPDFV2.INI = 1
+PWMPDFV1_US.INI = 2
+PWMPDFV1_JP.INI = 2
+PWMPDFV1_SC.INI = 2
+PWMPDFV1_FR.INI = 2
+PWMPDFV1_GR.INI = 2
+PWMPDFV1_IT.INI = 2
+PWMPDFV1_SP.INI = 2
+PWMPDFV1_BR.INI = 2
+PWMPDFV1_TC.INI = 2
+PWMPDFV1_KR.INI = 2
+PWMPDFV1_SV.INI = 2
+PWMPDFV1_FI.INI = 2
+PWMPDFV1_NE.INI = 2
+PWMPDFV1_DK.INI = 2
+PWMPDFV1_NO.INI = 2
+PWMPDFV1_PT.INI = 2
+PWMPDFV1_CR.INI = 2
+PWMPDFV1_CZ.INI = 2
+PWMPDFV1_GK.INI = 2
+PWMPDFV1_HU.INI = 2
+PWMPDFV1_PL.INI = 2
+PWMPDFV1_RO.INI = 2
+PWMPDFV1_RU.INI = 2
+PWMPDFV1_SH.INI = 2
+PWMPDFV1_SK.INI = 2
+PWMPDFV1_SL.INI = 2
+PWMPDFV1_TU.INI = 2
+PWMPDFV1_AR.INI = 2
+PWMPDFV1_HE.INI = 2
+PWMPDFV1_UA.INI = 2
+
+[DestinationDirs]
+AppDefaultDir_x64 = 10, SysWOW64\Lenovo\PowerMgr
+AppDefaultDir_x86 = 10, System32\Lenovo\PowerMgr
+AppIFDllDir_x86 = 10, System32\Lenovo\PowerMgr
+LepToastImageDir_x64 = 10, SysWOW64\Lenovo\PowerMgr\Images
+LepToastImageDir_x86 = 10, System32\Lenovo\PowerMgr\Images
+VantageRpcDllDir = 10, SysWOW64\Lenovo\PowerMgr\x86
+
+
+Sys.files = 12									; System32\drivers
+Sys.files_x86 = 12								; System32\drivers
+
+US.files = 10, SysWOW64\Lenovo\PowerMgr\US
+JP.files = 10, SysWOW64\Lenovo\PowerMgr\JP		
+SC.files = 10, SysWOW64\Lenovo\PowerMgr\SC
+FR.files = 10, SysWOW64\Lenovo\PowerMgr\FR
+GR.files = 10, SysWOW64\Lenovo\PowerMgr\GR
+IT.files = 10, SysWOW64\Lenovo\PowerMgr\IT
+SP.files = 10, SysWOW64\Lenovo\PowerMgr\SP
+BR.files = 10, SysWOW64\Lenovo\PowerMgr\BR
+TC.files = 10, SysWOW64\Lenovo\PowerMgr\TC
+KR.files = 10, SysWOW64\Lenovo\PowerMgr\KR
+SV.files = 10, SysWOW64\Lenovo\PowerMgr\SV
+FI.files = 10, SysWOW64\Lenovo\PowerMgr\FI
+NE.files = 10, SysWOW64\Lenovo\PowerMgr\NE
+DK.files = 10, SysWOW64\Lenovo\PowerMgr\DK
+NO.files = 10, SysWOW64\Lenovo\PowerMgr\NO
+PT.files = 10, SysWOW64\Lenovo\PowerMgr\PT
+CR.files = 10, SysWOW64\Lenovo\PowerMgr\CR
+CZ.files = 10, SysWOW64\Lenovo\PowerMgr\CZ
+GK.files = 10, SysWOW64\Lenovo\PowerMgr\GK
+HU.files = 10, SysWOW64\Lenovo\PowerMgr\HU
+PL.files = 10, SysWOW64\Lenovo\PowerMgr\PL
+RO.files = 10, SysWOW64\Lenovo\PowerMgr\RO
+RU.files = 10, SysWOW64\Lenovo\PowerMgr\RU
+SH.files = 10, SysWOW64\Lenovo\PowerMgr\SH
+SK.files = 10, SysWOW64\Lenovo\PowerMgr\SK
+SL.files = 10, SysWOW64\Lenovo\PowerMgr\SL
+TU.files = 10, SysWOW64\Lenovo\PowerMgr\TU
+AR.files = 10, SysWOW64\Lenovo\PowerMgr\AR
+HE.files = 10, SysWOW64\Lenovo\PowerMgr\HE
+UA.files = 10, SysWOW64\Lenovo\PowerMgr\UA
+LEPLang.ar-SA = 10, SysWOW64\Lenovo\PowerMgr\ar-SA
+LEPLang.cs-CZ = 10, SysWOW64\Lenovo\PowerMgr\cs-CZ
+LEPLang.da-DK = 10, SysWOW64\Lenovo\PowerMgr\da-DK
+LEPLang.de-DE = 10, SysWOW64\Lenovo\PowerMgr\de-DE
+LEPLang.el-GR = 10, SysWOW64\Lenovo\PowerMgr\el-GR
+LEPLang.en-US = 10, SysWOW64\Lenovo\PowerMgr\en-US
+LEPLang.es-ES = 10, SysWOW64\Lenovo\PowerMgr\es-ES
+LEPLang.fi-FI = 10, SysWOW64\Lenovo\PowerMgr\fi-FI
+LEPLang.fr-FR = 10, SysWOW64\Lenovo\PowerMgr\fr-FR
+LEPLang.he-IL = 10, SysWOW64\Lenovo\PowerMgr\he-IL
+LEPLang.hr-HR = 10, SysWOW64\Lenovo\PowerMgr\hr-HR
+LEPLang.hu-HU = 10, SysWOW64\Lenovo\PowerMgr\hu-HU
+LEPLang.it-IT = 10, SysWOW64\Lenovo\PowerMgr\it-IT
+LEPLang.ja-JP = 10, SysWOW64\Lenovo\PowerMgr\ja-JP
+LEPLang.ko-KR = 10, SysWOW64\Lenovo\PowerMgr\ko-KR
+LEPLang.nb-NO = 10, SysWOW64\Lenovo\PowerMgr\nb-NO
+LEPLang.nl-NL = 10, SysWOW64\Lenovo\PowerMgr\nl-NL
+LEPLang.pl-PL = 10, SysWOW64\Lenovo\PowerMgr\pl-PL
+LEPLang.pt-BR = 10, SysWOW64\Lenovo\PowerMgr\pt-BR
+LEPLang.pt-PT = 10, SysWOW64\Lenovo\PowerMgr\pt-PT
+LEPLang.ro-RO = 10, SysWOW64\Lenovo\PowerMgr\ro-RO
+LEPLang.ru-RU = 10, SysWOW64\Lenovo\PowerMgr\ru-RU
+LEPLang.sk-SK = 10, SysWOW64\Lenovo\PowerMgr\sk-SK
+LEPLang.sl-SI = 10, SysWOW64\Lenovo\PowerMgr\sl-SI
+LEPLang.sr-Latn-RS = 10, SysWOW64\Lenovo\PowerMgr\sr-Latn-RS
+LEPLang.sv-SE = 10, SysWOW64\Lenovo\PowerMgr\sv-SE
+LEPLang.tr-TR = 10, SysWOW64\Lenovo\PowerMgr\tr-TR
+LEPLang.uk-UA = 10, SysWOW64\Lenovo\PowerMgr\uk-UA
+LEPLang.zh-CN = 10, SysWOW64\Lenovo\PowerMgr\zh-CN
+LEPLang.zh-TW = 10, SysWOW64\Lenovo\PowerMgr\zh-TW
+
+US.files_x86 = 10, System32\Lenovo\PowerMgr\US
+JP.files_x86 = 10, System32\Lenovo\PowerMgr\JP		
+SC.files_x86 = 10, System32\Lenovo\PowerMgr\SC
+FR.files_x86 = 10, System32\Lenovo\PowerMgr\FR
+GR.files_x86 = 10, System32\Lenovo\PowerMgr\GR
+IT.files_x86 = 10, System32\Lenovo\PowerMgr\IT
+SP.files_x86 = 10, System32\Lenovo\PowerMgr\SP
+BR.files_x86 = 10, System32\Lenovo\PowerMgr\BR
+TC.files_x86 = 10, System32\Lenovo\PowerMgr\TC
+KR.files_x86 = 10, System32\Lenovo\PowerMgr\KR
+SV.files_x86 = 10, System32\Lenovo\PowerMgr\SV
+FI.files_x86 = 10, System32\Lenovo\PowerMgr\FI
+NE.files_x86 = 10, System32\Lenovo\PowerMgr\NE
+DK.files_x86 = 10, System32\Lenovo\PowerMgr\DK
+NO.files_x86 = 10, System32\Lenovo\PowerMgr\NO
+PT.files_x86 = 10, System32\Lenovo\PowerMgr\PT
+CR.files_x86 = 10, System32\Lenovo\PowerMgr\CR
+CZ.files_x86 = 10, System32\Lenovo\PowerMgr\CZ
+GK.files_x86 = 10, System32\Lenovo\PowerMgr\GK
+HU.files_x86 = 10, System32\Lenovo\PowerMgr\HU
+PL.files_x86 = 10, System32\Lenovo\PowerMgr\PL
+RO.files_x86 = 10, System32\Lenovo\PowerMgr\RO
+RU.files_x86 = 10, System32\Lenovo\PowerMgr\RU
+SH.files_x86 = 10, System32\Lenovo\PowerMgr\SH
+SK.files_x86 = 10, System32\Lenovo\PowerMgr\SK
+SL.files_x86 = 10, System32\Lenovo\PowerMgr\SL
+TU.files_x86 = 10, System32\Lenovo\PowerMgr\TU
+AR.files_x86 = 10, System32\Lenovo\PowerMgr\AR
+HE.files_x86 = 10, System32\Lenovo\PowerMgr\HE
+UA.files_x86 = 10, System32\Lenovo\PowerMgr\UA
+LEPLang.ar-SA_x86 = 10, System32\Lenovo\PowerMgr\ar-SA
+LEPLang.cs-CZ_x86 = 10, System32\Lenovo\PowerMgr\cs-CZ
+LEPLang.da-DK_x86 = 10, System32\Lenovo\PowerMgr\da-DK
+LEPLang.de-DE_x86 = 10, System32\Lenovo\PowerMgr\de-DE
+LEPLang.el-GR_x86 = 10, System32\Lenovo\PowerMgr\el-GR
+LEPLang.en-US_x86 = 10, System32\Lenovo\PowerMgr\en-US
+LEPLang.es-ES_x86 = 10, System32\Lenovo\PowerMgr\es-ES
+LEPLang.fi-FI_x86 = 10, System32\Lenovo\PowerMgr\fi-FI
+LEPLang.fr-FR_x86 = 10, System32\Lenovo\PowerMgr\fr-FR
+LEPLang.he-IL_x86 = 10, System32\Lenovo\PowerMgr\he-IL
+LEPLang.hr-HR_x86 = 10, System32\Lenovo\PowerMgr\hr-HR
+LEPLang.hu-HU_x86 = 10, System32\Lenovo\PowerMgr\hu-HU
+LEPLang.it-IT_x86 = 10, System32\Lenovo\PowerMgr\it-IT
+LEPLang.ja-JP_x86 = 10, System32\Lenovo\PowerMgr\ja-JP
+LEPLang.ko-KR_x86 = 10, System32\Lenovo\PowerMgr\ko-KR
+LEPLang.nb-NO_x86 = 10, System32\Lenovo\PowerMgr\nb-NO
+LEPLang.nl-NL_x86 = 10, System32\Lenovo\PowerMgr\nl-NL
+LEPLang.pl-PL_x86 = 10, System32\Lenovo\PowerMgr\pl-PL
+LEPLang.pt-BR_x86 = 10, System32\Lenovo\PowerMgr\pt-BR
+LEPLang.pt-PT_x86 = 10, System32\Lenovo\PowerMgr\pt-PT
+LEPLang.ro-RO_x86 = 10, System32\Lenovo\PowerMgr\ro-RO
+LEPLang.ru-RU_x86 = 10, System32\Lenovo\PowerMgr\ru-RU
+LEPLang.sk-SK_x86 = 10, System32\Lenovo\PowerMgr\sk-SK
+LEPLang.sl-SI_x86 = 10, System32\Lenovo\PowerMgr\sl-SI
+LEPLang.sr-Latn-RS_x86 = 10, System32\Lenovo\PowerMgr\sr-Latn-RS
+LEPLang.sv-SE_x86 = 10, System32\Lenovo\PowerMgr\sv-SE
+LEPLang.tr-TR_x86 = 10, System32\Lenovo\PowerMgr\tr-TR
+LEPLang.uk-UA_x86 = 10, System32\Lenovo\PowerMgr\uk-UA
+LEPLang.zh-CN_x86 = 10, System32\Lenovo\PowerMgr\zh-CN
+LEPLang.zh-TW_x86 = 10, System32\Lenovo\PowerMgr\zh-TW
+
+[Manufacturer]          ; The Manufacturer section
+%Mfg% = MyModel, NTx86.10.0, NTamd64.10.0, NTarm64.10.0
+
+[MyModel.NTx86.10.0]    ; The Models section
+"Lenovo Power and Battery" = MyInstall.NTx86, SWC\LenovoPowerMgr
+
+[MyModel.NTamd64.10.0]  ; The Models section
+"Lenovo Power and Battery" = MyInstall.NTamd64, SWC\LenovoPowerMgr
+
+[MyModel.NTarm64.10.0]  ; The Models section
+"Lenovo Power and Battery" = MyInstall.NTarm64, SWC\LenovoPowerMgr
+
+[MyInstall.NTx86]       ; The DDInstall section
+CopyFiles = AppDefaultDir_x86, LepToastImageDir_x86, VantageRpcDllDir, Sys.files_x86, US.files_x86, JP.files_x86, SC.files_x86, FR.files_x86, GR.files_x86, IT.files_x86, SP.files_x86, BR.files_x86, TC.files_x86, KR.files_x86, SV.files_x86, FI.files_x86, NE.files_x86, DK.files_x86, NO.files_x86, PT.files_x86, CR.files_x86, CZ.files_x86, GK.files_x86, HU.files_x86, PL.files_x86, RO.files_x86, RU.files_x86, SH.files_x86, SK.files_x86, SL.files_x86, TU.files_x86, AR.files_x86, HE.files_x86, UA.files_x86, LEPLang.ar-SA_x86, LEPLang.cs-CZ_x86, LEPLang.da-DK_x86, LEPLang.de-DE_x86, LEPLang.el-GR_x86, LEPLang.en-US_x86, LEPLang.es-ES_x86, LEPLang.fi-FI_x86, LEPLang.fr-FR_x86, LEPLang.he-IL_x86, LEPLang.hr-HR_x86, LEPLang.hu-HU_x86, LEPLang.it-IT_x86, LEPLang.ja-JP_x86, LEPLang.ko-KR_x86, LEPLang.nb-NO_x86, LEPLang.nl-NL_x86, LEPLang.pl-PL_x86, LEPLang.pt-BR_x86, LEPLang.pt-PT_x86, LEPLang.ro-RO_x86, LEPLang.ru-RU_x86, LEPLang.sk-SK_x86, LEPLang.sl-SI_x86, LEPLang.sr-Latn-RS_x86, LEPLang.sv-SE_x86, LEPLang.tr-TR_x86, LEPLang.uk-UA_x86, LEPLang.zh-CN_x86, LEPLang.zh-TW_x86
+
+[MyInstall.NTamd64]     ; The DDInstall section
+CopyFiles = AppDefaultDir_x64, LepToastImageDir_x64, VantageRpcDllDir, Sys.files, US.files, JP.files, SC.files, FR.files, GR.files, IT.files, SP.files, BR.files, TC.files, KR.files, SV.files, FI.files, NE.files, DK.files, NO.files, PT.files, CR.files, CZ.files, GK.files, HU.files, PL.files, RO.files, RU.files, SH.files, SK.files, SL.files, TU.files, AR.files, HE.files, UA.files, LEPLang.ar-SA, LEPLang.cs-CZ, LEPLang.da-DK, LEPLang.de-DE, LEPLang.el-GR, LEPLang.en-US, LEPLang.es-ES, LEPLang.fi-FI, LEPLang.fr-FR, LEPLang.he-IL, LEPLang.hr-HR, LEPLang.hu-HU, LEPLang.it-IT, LEPLang.ja-JP, LEPLang.ko-KR, LEPLang.nb-NO, LEPLang.nl-NL, LEPLang.pl-PL, LEPLang.pt-BR, LEPLang.pt-PT, LEPLang.ro-RO, LEPLang.ru-RU, LEPLang.sk-SK, LEPLang.sl-SI, LEPLang.sr-Latn-RS, LEPLang.sv-SE, LEPLang.tr-TR, LEPLang.uk-UA, LEPLang.zh-CN, LEPLang.zh-TW, AppIFDllDir_x86
+
+[MyInstall.NTarm64]     ; The DDInstall section
+CopyFiles = AppDefaultDir_x64, LepToastImageDir_x64, VantageRpcDllDir, Sys.files, US.files, JP.files, SC.files, FR.files, GR.files, IT.files, SP.files, BR.files, TC.files, KR.files, SV.files, FI.files, NE.files, DK.files, NO.files, PT.files, CR.files, CZ.files, GK.files, HU.files, PL.files, RO.files, RU.files, SH.files, SK.files, SL.files, TU.files, AR.files, HE.files, UA.files, LEPLang.ar-SA, LEPLang.cs-CZ, LEPLang.da-DK, LEPLang.de-DE, LEPLang.el-GR, LEPLang.en-US, LEPLang.es-ES, LEPLang.fi-FI, LEPLang.fr-FR, LEPLang.he-IL, LEPLang.hr-HR, LEPLang.hu-HU, LEPLang.it-IT, LEPLang.ja-JP, LEPLang.ko-KR, LEPLang.nb-NO, LEPLang.nl-NL, LEPLang.pl-PL, LEPLang.pt-BR, LEPLang.pt-PT, LEPLang.ro-RO, LEPLang.ru-RU, LEPLang.sk-SK, LEPLang.sl-SI, LEPLang.sr-Latn-RS, LEPLang.sv-SE, LEPLang.tr-TR, LEPLang.uk-UA, LEPLang.zh-CN, LEPLang.zh-TW, AppIFDllDir_x86
+
+[AppDefaultDir_x86]
+PowerMgr.exe
+PowerMgrUninstallx86.xml
+PWMTR32V.dll
+PWMIF32V.dll
+InstHelper.dll
+EasyResume.exe
+SmartShutdown.exe
+PowerMgrInst.exe
+EventLogger.dll
+PowerBaseModule.man
+iTin.Core.dll
+Lenovo.Vantage.RpcClient.dll
+Lenovo.Vantage.RpcCommon.dll
+Lenovo.VantageService.Utilities.dll
+Newtonsoft.Json.dll
+LEPToastLnc.exe
+PWMPDFV2.INI
+
+[AppDefaultDir_x64]
+PowerMgr.exe
+PowerMgrUninstall.xml
+PWMTR32V.dll
+PWMIF32V.dll
+InstHelper.dll
+EasyResume.exe
+SmartShutdown.exe
+PowerMgrInst.exe
+EventLogger.dll
+PowerBaseModule.man
+iTin.Core.dll
+Lenovo.Vantage.RpcClient.dll
+Lenovo.Vantage.RpcCommon.dll
+Lenovo.VantageService.Utilities.dll
+Newtonsoft.Json.dll
+LEPToastLnc.exe
+PWMPDFV2.INI
+
+[AppIFDllDir_x86]
+PWMIF64V.dll
+
+[Sys.files]
+TPPWR64V.SYS
+
+[Sys.files_x86]
+TPPWR32V.SYS
+
+[LepToastImageDir_x64]
+dock_port.png
+
+[LepToastImageDir_x86]
+dock_port.png
+
+[VantageRpcDllDir]
+VantageRpcClient.dll
+
+[US.files]
+PWMRT32V.dll,PWMRT32V_US.dll,,
+PWMPDFV1.INI,PWMPDFV1_US.INI,,
+[JP.files]
+PWMRT32V.dll,PWMRT32V_JP.dll,,
+PWMPDFV1.INI,PWMPDFV1_JP.INI,,
+[SC.files]
+PWMRT32V.dll,PWMRT32V_SC.dll,,
+PWMPDFV1.INI,PWMPDFV1_SC.INI,,
+[FR.files]
+PWMRT32V.dll,PWMRT32V_FR.dll,,
+PWMPDFV1.INI,PWMPDFV1_FR.INI,,
+[GR.files]
+PWMRT32V.dll,PWMRT32V_GR.dll,,
+PWMPDFV1.INI,PWMPDFV1_GR.INI,,
+[IT.files]
+PWMRT32V.dll,PWMRT32V_IT.dll,,
+PWMPDFV1.INI,PWMPDFV1_IT.INI,,
+[SP.files]
+PWMRT32V.dll,PWMRT32V_SP.dll,,
+PWMPDFV1.INI,PWMPDFV1_SP.INI,,
+[BR.files]
+PWMRT32V.dll,PWMRT32V_BR.dll,,
+PWMPDFV1.INI,PWMPDFV1_BR.INI,,
+[TC.files]
+PWMRT32V.dll,PWMRT32V_TC.dll,,
+PWMPDFV1.INI,PWMPDFV1_TC.INI,,
+[KR.files]
+PWMRT32V.dll,PWMRT32V_KR.dll,,
+PWMPDFV1.INI,PWMPDFV1_KR.INI,,
+[SV.files]
+PWMRT32V.dll,PWMRT32V_SV.dll,,
+PWMPDFV1.INI,PWMPDFV1_SV.INI,,
+[FI.files]
+PWMRT32V.dll,PWMRT32V_FI.dll,,
+PWMPDFV1.INI,PWMPDFV1_FI.INI,,
+[NE.files]
+PWMRT32V.dll,PWMRT32V_NE.dll,,
+PWMPDFV1.INI,PWMPDFV1_NE.INI,,
+[DK.files]
+PWMRT32V.dll,PWMRT32V_DK.dll,,
+PWMPDFV1.INI,PWMPDFV1_DK.INI,,
+[NO.files]
+PWMRT32V.dll,PWMRT32V_NO.dll,,
+PWMPDFV1.INI,PWMPDFV1_NO.INI,,
+[PT.files]
+PWMRT32V.dll,PWMRT32V_PT.dll,,
+PWMPDFV1.INI,PWMPDFV1_PT.INI,,
+[CR.files]
+PWMRT32V.dll,PWMRT32V_CR.dll,,
+PWMPDFV1.INI,PWMPDFV1_CR.INI,,
+[CZ.files]
+PWMRT32V.dll,PWMRT32V_CZ.dll,,
+PWMPDFV1.INI,PWMPDFV1_CZ.INI,,
+[GK.files]
+PWMRT32V.dll,PWMRT32V_GK.dll,,
+PWMPDFV1.INI,PWMPDFV1_GK.INI,,
+[HU.files]
+PWMRT32V.dll,PWMRT32V_HU.dll,,
+PWMPDFV1.INI,PWMPDFV1_HU.INI,,
+[PL.files]
+PWMRT32V.dll,PWMRT32V_PL.dll,,
+PWMPDFV1.INI,PWMPDFV1_PL.INI,,
+[RO.files]
+PWMRT32V.dll,PWMRT32V_RO.dll,,
+PWMPDFV1.INI,PWMPDFV1_RO.INI,,
+[RU.files]
+PWMRT32V.dll,PWMRT32V_RU.dll,,
+PWMPDFV1.INI,PWMPDFV1_RU.INI,,
+[SH.files]
+PWMRT32V.dll,PWMRT32V_SH.dll,,
+PWMPDFV1.INI,PWMPDFV1_SH.INI,,
+[SK.files]
+PWMRT32V.dll,PWMRT32V_SK.dll,,
+PWMPDFV1.INI,PWMPDFV1_SK.INI,,
+[SL.files]
+PWMRT32V.dll,PWMRT32V_SL.dll,,
+PWMPDFV1.INI,PWMPDFV1_SL.INI,,
+[TU.files]
+PWMRT32V.dll,PWMRT32V_TU.dll,,
+PWMPDFV1.INI,PWMPDFV1_TU.INI,,
+[AR.files]
+PWMRT32V.dll,PWMRT32V_AR.dll,,
+PWMPDFV1.INI,PWMPDFV1_AR.INI,,
+[HE.files]
+PWMRT32V.dll,PWMRT32V_HE.dll,,
+PWMPDFV1.INI,PWMPDFV1_HE.INI,,
+[UA.files]
+PWMRT32V.dll,PWMRT32V_UA.dll,,
+PWMPDFV1.INI,PWMPDFV1_UA.INI,,
+[LEPLang.ar-SA]
+LEPToastLnc.resources.dll,sa_LEPToastLnc.resources.dll,,
+[LEPLang.cs-CZ]
+LEPToastLnc.resources.dll,cz_LEPToastLnc.resources.dll,,
+[LEPLang.da-DK]
+LEPToastLnc.resources.dll,dk_LEPToastLnc.resources.dll,,
+[LEPLang.de-DE]
+LEPToastLnc.resources.dll,de_LEPToastLnc.resources.dll,,
+[LEPLang.el-GR]
+LEPToastLnc.resources.dll,gr_LEPToastLnc.resources.dll,,
+[LEPLang.en-US]
+LEPToastLnc.resources.dll,us_LEPToastLnc.resources.dll,,
+[LEPLang.es-ES]
+LEPToastLnc.resources.dll,es_LEPToastLnc.resources.dll,,
+[LEPLang.fi-FI]
+LEPToastLnc.resources.dll,fi_LEPToastLnc.resources.dll,,
+[LEPLang.fr-FR]
+LEPToastLnc.resources.dll,fr_LEPToastLnc.resources.dll,,
+[LEPLang.he-IL]
+LEPToastLnc.resources.dll,il_LEPToastLnc.resources.dll,,
+[LEPLang.hr-HR]
+LEPToastLnc.resources.dll,hr_LEPToastLnc.resources.dll,,
+[LEPLang.hu-HU]
+LEPToastLnc.resources.dll,hu_LEPToastLnc.resources.dll,,
+[LEPLang.it-IT]
+LEPToastLnc.resources.dll,it_LEPToastLnc.resources.dll,,
+[LEPLang.ja-JP]
+LEPToastLnc.resources.dll,jp_LEPToastLnc.resources.dll,,
+[LEPLang.ko-KR]
+LEPToastLnc.resources.dll,kr_LEPToastLnc.resources.dll,,
+[LEPLang.nb-NO]
+LEPToastLnc.resources.dll,no_LEPToastLnc.resources.dll,,
+[LEPLang.nl-NL]
+LEPToastLnc.resources.dll,nl_LEPToastLnc.resources.dll,,
+[LEPLang.pl-PL]
+LEPToastLnc.resources.dll,pl_LEPToastLnc.resources.dll,,
+[LEPLang.pt-BR]
+LEPToastLnc.resources.dll,br_LEPToastLnc.resources.dll,,
+[LEPLang.pt-PT]
+LEPToastLnc.resources.dll,pt_LEPToastLnc.resources.dll,,
+[LEPLang.ro-RO]
+LEPToastLnc.resources.dll,ro_LEPToastLnc.resources.dll,,
+[LEPLang.ru-RU]
+LEPToastLnc.resources.dll,ru_LEPToastLnc.resources.dll,,
+[LEPLang.sk-SK]
+LEPToastLnc.resources.dll,sk_LEPToastLnc.resources.dll,,
+[LEPLang.sl-SI]
+LEPToastLnc.resources.dll,si_LEPToastLnc.resources.dll,,
+[LEPLang.sr-Latn-RS]
+LEPToastLnc.resources.dll,rs_LEPToastLnc.resources.dll,,
+[LEPLang.sv-SE]
+LEPToastLnc.resources.dll,se_LEPToastLnc.resources.dll,,
+[LEPLang.tr-TR]
+LEPToastLnc.resources.dll,tr_LEPToastLnc.resources.dll,,
+[LEPLang.uk-UA]
+LEPToastLnc.resources.dll,ua_LEPToastLnc.resources.dll,,
+[LEPLang.zh-CN]
+LEPToastLnc.resources.dll,cn_LEPToastLnc.resources.dll,,
+[LEPLang.zh-TW]
+LEPToastLnc.resources.dll,tw_LEPToastLnc.resources.dll,,
+
+[US.files_x86]
+PWMRT32V.dll,PWMRT32V_US.dll,,
+PWMPDFV1.INI,PWMPDFV1_US.INI,,
+[JP.files_x86]
+PWMRT32V.dll,PWMRT32V_JP.dll,,
+PWMPDFV1.INI,PWMPDFV1_JP.INI,,
+[SC.files_x86]
+PWMRT32V.dll,PWMRT32V_SC.dll,,
+PWMPDFV1.INI,PWMPDFV1_SC.INI,,
+[FR.files_x86]
+PWMRT32V.dll,PWMRT32V_FR.dll,,
+PWMPDFV1.INI,PWMPDFV1_FR.INI,,
+[GR.files_x86]
+PWMRT32V.dll,PWMRT32V_GR.dll,,
+PWMPDFV1.INI,PWMPDFV1_GR.INI,,
+[IT.files_x86]
+PWMRT32V.dll,PWMRT32V_IT.dll,,
+PWMPDFV1.INI,PWMPDFV1_IT.INI,,
+[SP.files_x86]
+PWMRT32V.dll,PWMRT32V_SP.dll,,
+PWMPDFV1.INI,PWMPDFV1_SP.INI,,
+[BR.files_x86]
+PWMRT32V.dll,PWMRT32V_BR.dll,,
+PWMPDFV1.INI,PWMPDFV1_BR.INI,,
+[TC.files_x86]
+PWMRT32V.dll,PWMRT32V_TC.dll,,
+PWMPDFV1.INI,PWMPDFV1_TC.INI,,
+[KR.files_x86]
+PWMRT32V.dll,PWMRT32V_KR.dll,,
+PWMPDFV1.INI,PWMPDFV1_KR.INI,,
+[SV.files_x86]
+PWMRT32V.dll,PWMRT32V_SV.dll,,
+PWMPDFV1.INI,PWMPDFV1_SV.INI,,
+[FI.files_x86]
+PWMRT32V.dll,PWMRT32V_FI.dll,,
+PWMPDFV1.INI,PWMPDFV1_FI.INI,,
+[NE.files_x86]
+PWMRT32V.dll,PWMRT32V_NE.dll,,
+PWMPDFV1.INI,PWMPDFV1_NE.INI,,
+[DK.files_x86]
+PWMRT32V.dll,PWMRT32V_DK.dll,,
+PWMPDFV1.INI,PWMPDFV1_DK.INI,,
+[NO.files_x86]
+PWMRT32V.dll,PWMRT32V_NO.dll,,
+PWMPDFV1.INI,PWMPDFV1_NO.INI,,
+[PT.files_x86]
+PWMRT32V.dll,PWMRT32V_PT.dll,,
+PWMPDFV1.INI,PWMPDFV1_PT.INI,,
+[CR.files_x86]
+PWMRT32V.dll,PWMRT32V_CR.dll,,
+PWMPDFV1.INI,PWMPDFV1_CR.INI,,
+[CZ.files_x86]
+PWMRT32V.dll,PWMRT32V_CZ.dll,,
+PWMPDFV1.INI,PWMPDFV1_CZ.INI,,
+[GK.files_x86]
+PWMRT32V.dll,PWMRT32V_GK.dll,,
+PWMPDFV1.INI,PWMPDFV1_GK.INI,,
+[HU.files_x86]
+PWMRT32V.dll,PWMRT32V_HU.dll,,
+PWMPDFV1.INI,PWMPDFV1_HU.INI,,
+[PL.files_x86]
+PWMRT32V.dll,PWMRT32V_PL.dll,,
+PWMPDFV1.INI,PWMPDFV1_PL.INI,,
+[RO.files_x86]
+PWMRT32V.dll,PWMRT32V_RO.dll,,
+PWMPDFV1.INI,PWMPDFV1_RO.INI,,
+[RU.files_x86]
+PWMRT32V.dll,PWMRT32V_RU.dll,,
+PWMPDFV1.INI,PWMPDFV1_RU.INI,,
+[SH.files_x86]
+PWMRT32V.dll,PWMRT32V_SH.dll,,
+PWMPDFV1.INI,PWMPDFV1_SH.INI,,
+[SK.files_x86]
+PWMRT32V.dll,PWMRT32V_SK.dll,,
+PWMPDFV1.INI,PWMPDFV1_SK.INI,,
+[SL.files_x86]
+PWMRT32V.dll,PWMRT32V_SL.dll,,
+PWMPDFV1.INI,PWMPDFV1_SL.INI,,
+[TU.files_x86]
+PWMRT32V.dll,PWMRT32V_TU.dll,,
+PWMPDFV1.INI,PWMPDFV1_TU.INI,,
+[AR.files_x86]
+PWMRT32V.dll,PWMRT32V_AR.dll,,
+PWMPDFV1.INI,PWMPDFV1_AR.INI,,
+[HE.files_x86]
+PWMRT32V.dll,PWMRT32V_HE.dll,,
+PWMPDFV1.INI,PWMPDFV1_HE.INI,,
+[UA.files_x86]
+PWMRT32V.dll,PWMRT32V_UA.dll,,
+PWMPDFV1.INI,PWMPDFV1_UA.INI,,
+[LEPLang.ar-SA_x86]
+LEPToastLnc.resources.dll,sa_LEPToastLnc.resources.dll,,
+[LEPLang.cs-CZ_x86]
+LEPToastLnc.resources.dll,cz_LEPToastLnc.resources.dll,,
+[LEPLang.da-DK_x86]
+LEPToastLnc.resources.dll,dk_LEPToastLnc.resources.dll,,
+[LEPLang.de-DE_x86]
+LEPToastLnc.resources.dll,de_LEPToastLnc.resources.dll,,
+[LEPLang.el-GR_x86]
+LEPToastLnc.resources.dll,gr_LEPToastLnc.resources.dll,,
+[LEPLang.en-US_x86]
+LEPToastLnc.resources.dll,us_LEPToastLnc.resources.dll,,
+[LEPLang.es-ES_x86]
+LEPToastLnc.resources.dll,es_LEPToastLnc.resources.dll,,
+[LEPLang.fi-FI_x86]
+LEPToastLnc.resources.dll,fi_LEPToastLnc.resources.dll,,
+[LEPLang.fr-FR_x86]
+LEPToastLnc.resources.dll,fr_LEPToastLnc.resources.dll,,
+[LEPLang.he-IL_x86]
+LEPToastLnc.resources.dll,il_LEPToastLnc.resources.dll,,
+[LEPLang.hr-HR_x86]
+LEPToastLnc.resources.dll,hr_LEPToastLnc.resources.dll,,
+[LEPLang.hu-HU_x86]
+LEPToastLnc.resources.dll,hu_LEPToastLnc.resources.dll,,
+[LEPLang.it-IT_x86]
+LEPToastLnc.resources.dll,it_LEPToastLnc.resources.dll,,
+[LEPLang.ja-JP_x86]
+LEPToastLnc.resources.dll,jp_LEPToastLnc.resources.dll,,
+[LEPLang.ko-KR_x86]
+LEPToastLnc.resources.dll,kr_LEPToastLnc.resources.dll,,
+[LEPLang.nb-NO_x86]
+LEPToastLnc.resources.dll,no_LEPToastLnc.resources.dll,,
+[LEPLang.nl-NL_x86]
+LEPToastLnc.resources.dll,nl_LEPToastLnc.resources.dll,,
+[LEPLang.pl-PL_x86]
+LEPToastLnc.resources.dll,pl_LEPToastLnc.resources.dll,,
+[LEPLang.pt-BR_x86]
+LEPToastLnc.resources.dll,br_LEPToastLnc.resources.dll,,
+[LEPLang.pt-PT_x86]
+LEPToastLnc.resources.dll,pt_LEPToastLnc.resources.dll,,
+[LEPLang.ro-RO_x86]
+LEPToastLnc.resources.dll,ro_LEPToastLnc.resources.dll,,
+[LEPLang.ru-RU_x86]
+LEPToastLnc.resources.dll,ru_LEPToastLnc.resources.dll,,
+[LEPLang.sk-SK_x86]
+LEPToastLnc.resources.dll,sk_LEPToastLnc.resources.dll,,
+[LEPLang.sl-SI_x86]
+LEPToastLnc.resources.dll,si_LEPToastLnc.resources.dll,,
+[LEPLang.sr-Latn-RS_x86]
+LEPToastLnc.resources.dll,rs_LEPToastLnc.resources.dll,,
+[LEPLang.sv-SE_x86]
+LEPToastLnc.resources.dll,se_LEPToastLnc.resources.dll,,
+[LEPLang.tr-TR_x86]
+LEPToastLnc.resources.dll,tr_LEPToastLnc.resources.dll,,
+[LEPLang.uk-UA_x86]
+LEPToastLnc.resources.dll,ua_LEPToastLnc.resources.dll,,
+[LEPLang.zh-CN_x86]
+LEPToastLnc.resources.dll,cn_LEPToastLnc.resources.dll,,
+[LEPLang.zh-TW_x86]
+LEPToastLnc.resources.dll,tw_LEPToastLnc.resources.dll,,
+
+[MyInstall.NTx86.Services] ; The DDInstall.Services section 
+AddService = ,2			; SPSVCINST_ASSOCSERVICE
+AddService = "LenovoPowerMgrInst", 0x800, PowerMgrInst.ServiceInstall	; SPSVCSINST_STARTSERVICE
+
+[MyInstall.NTamd64.Services] ; The DDInstall.Services section 
+AddService = ,2			; SPSVCINST_ASSOCSERVICE
+AddService = "LenovoPowerMgrInst", 0x800, PowerMgrInst.ServiceInstall	; SPSVCSINST_STARTSERVICE
+
+[MyInstall.NTarm64.Services] ; The DDInstall.Services section 
+AddService = ,2			; SPSVCINST_ASSOCSERVICE
+AddService = "LenovoPowerMgrInst", 0x800, PowerMgrInst.ServiceInstall	; SPSVCSINST_STARTSERVICE
+
+[PowerMgrInst.ServiceInstall]
+DisplayName = "Lenovo Power and Battery Install Helper"
+ServiceType = 0x10	; SERVICE_WIN32_OWN_PROCESS
+StartType = 2		; SERVICE_AUTO_START
+ErrorControl = 1	; SERVICE_ERROR_NORMAL
+Dependencies = Winmgmt
+ServiceBinary = %13%\PowerMgrInst.exe
+AddReg = PowerMgrInst.Reg
+
+[PowerMgrInst.Reg]
+HKR,,DelayedAutoStart,0x00010001,1  ; REG_DWORD
+
+[Strings]
+; non-localizable
+
+; localizable
+Mfg = "Lenovo"
+DiskId = "Lenovo Power and Battery Software Component"
