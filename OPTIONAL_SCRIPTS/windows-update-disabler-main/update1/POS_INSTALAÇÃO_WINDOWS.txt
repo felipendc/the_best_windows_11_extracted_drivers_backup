@@ -1,0 +1,31 @@
+ESSE SCRIPT FOI TESTADO NO WINDOWS 11.
+
+Instalar o Windows sem acesso á internet;
+Excecutar o script para desativar o Windows Update completamente;
+Conectar-se á internet;
+Instalar os drivers do Windows normalmente;
+Instale o PANDA ANTI-VIRUS.
+Reiniciar o computador;
+
+Se precisar atualizar os aplicativos do Windows, reative o Windows Update script e atualize.
+os aplicativos pela Windows Store. Logo após, reative o script para desativar o Windows Update.
+Pronto! :) 
+
+
+BEST COLORS CALIBRATION;
+WINDOWS UPDATE FULLY DISABLED;
+BEST AUDIO CODECS;
+BASICS PROGRAMS;
+PANDA ANTI-VIRUS;
+SUPER CLEAN
+
+
+PC DA SALA: 
+INFO: Cores insanas e com uma ótima resolução para o Dell Monitor.
+Versão da ISO: 22621.1344.230221-1654.eng_PC_DA_SALA_EXCELENTE_CORES_DELL.ISO
+Script: windows-update-disabler-main.zip
+
+NOTEBOOK: 
+INFO: Cores insanas e com uma ótima resolução para o AUO.
+Versão da ISO: 25357.zn (canary version
+Script: windows-update-disabler-main.zip

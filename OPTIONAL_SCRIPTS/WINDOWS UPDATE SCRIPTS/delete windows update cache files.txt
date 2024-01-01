@@ -1,0 +1,8 @@
+Open a CMD as Admin:
+
+net stop wuauserv
+ren %systemroot%\SoftwareDistribution SoftwareDistribution.old
+rd /s/q %systemroot%\SoftwareDistribution.old
+
+
+net start wuauserv
