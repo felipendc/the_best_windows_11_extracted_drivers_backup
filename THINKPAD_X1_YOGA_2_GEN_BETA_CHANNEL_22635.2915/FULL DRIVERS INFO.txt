@@ -16,6 +16,8 @@ Intel Corporation - Bluetooth - 23.20.0.3
 
 ####################################
 
+CURRENTLY TESTING THESE DRIVERS ON:
+public_rs_22621.2134.230728-2038.NI_RELEASE_SVC_PROD1_CLIENTPRO_OEMRET_X64FRE_PT-BR.ISO
 
 
 
