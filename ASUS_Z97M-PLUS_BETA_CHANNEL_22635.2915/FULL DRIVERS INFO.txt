@@ -6,7 +6,7 @@ Which means that, some of these drivers migh not work on you SETUP (PC).
 
 
 COMMAND TO EXTRACT THE DRIVERS: 
-Export-WindowsDriver -Online -Destination D:\Drivers
+Export-WindowsDriver -Online -Destination C:\Drivers
 
 WINDOWS VERSION:
 22635.2915.231204-1534.NI_RELEASE_SVC_BETAFLT_PROD1_CLIENTPRO_OEMRET_X64FRE_EN-US (BETA CHANNEL)
