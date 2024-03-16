@@ -1,0 +1,116 @@
+;##############################################################################
+;#  LogitechBLE.INF for Windows 8/8.1/10 BLE
+;#  Copyright (c) 2017 Logitech. All rights reserved.
+;##############################################################################
+
+[Version]
+Signature   = "$Windows NT$"
+CatalogFile.NTx86 = LogitechBLEx86.CAT
+CatalogFile.NTAMD64 = LogitechBLEx64.cat
+Class       = HIDClass
+ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+
+Provider    = %Provider%
+DriverVer   = 09/27/2019,1.10.86.0
+
+[DestinationDirs]
+DefaultDestDir = 11
+LogiLDA_CopyFiles = 11
+
+[ControlFlags]
+ExcludeFromSelect   = *
+
+[SourceDisksNames]
+1 = %DiskName%,
+
+[SourceDisksFiles.x86]
+LogiLDA.DLL = 1,\x86
+LdaCx2.dll = 1,\x86
+msvcp110.DLL = 1,\x86
+msvcr110.DLL = 1,\x86
+vccorlib110.DLL = 1,\x86
+
+[SourceDisksFiles.amd64]
+LogiLDA.DLL = 1,\x64
+LdaCx2.DLL = 1,\x64
+msvcp110.DLL = 1,\x64
+msvcr110.DLL = 1,\x64
+vccorlib110.DLL = 1,\x64
+
+[Manufacturer]
+%Provider%	= Logitech,NTx86,NTamd64
+
+[Logitech.NTx86]
+%hpps.desc% = LogiLDA,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b00d&Col05
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b012&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b013&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b503&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b350&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b019&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01a&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01d&Col02
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01e&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b017&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01f&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b018&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b015&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b33b&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b34d&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01b&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b35b&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b023&Col03
+
+
+[Logitech.NTamd64]
+%hpps.desc% = LogiLDA,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002046d_PID&b00d&Col05
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b012&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b013&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b503&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b350&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b019&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01a&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01d&Col02
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01e&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b017&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01f&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b018&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b015&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b33b&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b34d&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b01b&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b35b&Col03
+%hpps.desc% = LogiLDA,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02046d_PID&b023&Col03
+
+[LogiLDA.NT]
+Include = Input.inf
+Needs = HID_Raw_Inst.NT
+AddReg = LogiLDA_SetFlag
+
+
+[LogiLDA.NT.Services]
+Include = Input.inf
+Needs = HID_Raw_Inst.NT.Services
+
+
+[LogiLDA.NT.CoInstallers]	
+CopyFiles = LogiLDA_CopyFiles
+AddReg = LogiLDA_AddReg
+
+[LogiLDA_AddReg]
+HKR,,CoInstallers32,0x00010000,"LogiLDA.DLL,CoDeviceInstall"
+
+[LogiLDA_SetFlag]
+HKLM,Software\Logishrd\LogiLDA.DLL,Protocol,0x00010001,1
+
+[LogiLDA_CopyFiles]
+LogiLDA.DLL
+LdaCx2.dll
+msvcp110.dll
+msvcr110.dll
+vccorlib110.dll
+
+[Strings]
+Provider = "Logitech"
+DiskName = "Logitech USB LDA Disk"
+hpps.desc = "Logitech Download Assistant"
+
